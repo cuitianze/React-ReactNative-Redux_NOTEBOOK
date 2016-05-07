@@ -52,7 +52,7 @@ if (__DEV__) {
 
 var React = {
 
-  // Modern
+  // Modern  -> ES6写法: class MyApp extends React.Component
 
   Children: {
     map: ReactChildren.map,
@@ -68,7 +68,7 @@ var React = {
   cloneElement: cloneElement,
   isValidElement: ReactElement.isValidElement,
 
-  // Classic
+  // Classic  -> 经典写法: React.createClass
 
   PropTypes: ReactPropTypes,
   createClass: ReactClass.createClass,
