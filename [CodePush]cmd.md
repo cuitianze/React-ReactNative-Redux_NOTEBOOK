@@ -3,3 +3,6 @@
  
  code-push deployment  history tougudashi test-android
  ```
+[参考文档]    
+https://github.com/Microsoft/code-push/blob/master/cli/README-cn.md    
+https://github.com/coderwin/CodePushCN    
