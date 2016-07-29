@@ -19,6 +19,9 @@ https://www.joinquant.com/default/activity/freealg?f=home&m=banner
 掘金
 http://www.myquant.cn/
 
+BotVS （JavaScript版）
+https://www.botvs.com/ 
+
 开拓者
 http://www.tradeblazer.net/
 
