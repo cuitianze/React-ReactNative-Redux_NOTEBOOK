@@ -5,7 +5,7 @@ curl 'https://setup.ius.io/' -o setup-ius.sh
 sudo bash setup-ius.sh
 
 sudo yum remove php-cli mod_php php-common
-sudo yum install mod_php70u php70u-cli php70u-mysqlnd php70u-json -y
+sudo yum install mod_php70u php70u-cli php70u-mysqlnd php70u-json php70u-mbstring -y
 
 ```
 
