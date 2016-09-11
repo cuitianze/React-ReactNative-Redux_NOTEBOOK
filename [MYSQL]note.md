@@ -22,3 +22,28 @@ ps -ef | grep mysql
 ```
  grep "220.181.102.176" /Users/cuitianze/Downloads/tmp2 > 220.181.102.176
 ```
+
+安装mysql-shell (https://bugs.mysql.com/bug.php?id=81051)    
+enable the mysql-tools-preview repository
+```
+vim /etc/yum.repos.d/mysql-community.repo
+```
+```
+[mysql-tools-preview]
+name=MySQL Tools Preview
+baseurl=http://repo.mysql.com/yum/mysql-tools-preview/el/6/$basearch/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+```
+```
+yum install mysql-shell
+```
+```
+mysqlsh -u root -h localhost -p --classic --dba enableXProtocol
+```
+
+导入数据库
+```
+mysqlsh -u root --sql --recreate-schema tougudashi < tougudashi.sql
+```
