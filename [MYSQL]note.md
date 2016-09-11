@@ -47,3 +47,11 @@ mysqlsh -u root -h localhost -p --classic --dba enableXProtocol
 ```
 mysqlsh -u root --sql --recreate-schema tougudashi < tougudashi.sql
 ```
+
+允许外网访问
+```
+mysql> use mysql;
+mysql> select host, user from user;
+mysql> update user set host = '%' where user = 'root';
+mysql> FLUSH PRIVILEGES;
+```
