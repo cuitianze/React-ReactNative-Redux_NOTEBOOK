@@ -55,3 +55,6 @@ mysql> select host, user from user;
 mysql> update user set host = '%' where user = 'root';
 mysql> FLUSH PRIVILEGES;
 ```
+```
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'cuitianze'@'114.240.245.12' IDENTIFIED BY 'Cuitianze@123' WITH GRANT OPTION;
+```
