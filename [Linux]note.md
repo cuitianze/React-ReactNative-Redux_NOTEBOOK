@@ -14,3 +14,8 @@ du -sh * | sort -n
 ```
 du -sh * | sort -n | grep 0 -n
 ```
+
+[以上命令再加个^能得到以某字符开头的行]
+```
+du -sh * | sort -n | grep ^0 -n
+```
