@@ -9,3 +9,8 @@ ls -l |grep "^-"|wc -l
 ```
 du -sh * | sort -n
 ```
+
+[以上命令结合grep能得到行号]
+```
+du -sh * | sort -n | grep 0 -n
+```
