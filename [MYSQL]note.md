@@ -58,3 +58,10 @@ mysql> FLUSH PRIVILEGES;
 ```
 mysql> GRANT ALL PRIVILEGES ON *.* TO 'cuitianze'@'114.240.245.12' IDENTIFIED BY 'Cuitianze@123' WITH GRANT OPTION;
 ```
+
+批量修改表中某字段
+```
+# SELECT * FROM divination_terminology WHERE content LIKE "1月1日，%";
+UPDATE divination_terminology SET content=REPLACE(content, '1月1日，', '') WHERE content LIKE '1月1日，%';
+# SELECT * FROM divination_terminology;
+```
