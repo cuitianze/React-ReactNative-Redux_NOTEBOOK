@@ -16,6 +16,12 @@ https://www.ricequant.com/?f=n
 聚宽 joinquan
 https://www.joinquant.com/default/activity/freealg?f=home&m=banner
 
+同花顺量化
+http://quant.10jqka.com.cn/platform/html/home.html
+
+京东量化
+http://club.jr.jd.com/quant/index
+
 掘金
 http://www.myquant.cn/
 
